@@ -1,0 +1,129 @@
+<!-- criar uma estrutura básica do HTML ! e apertar TAB -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- cabeçalho ele não aparece para o usuário -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- mobile - responsive -->
+    <link rel="stylesheet" href="css/styles.css"> <!-- link do css -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <!-- font do google fonts-->
+    <title>Meu Portfólio</title>
+</head>
+
+<body>
+
+</body>
+
+<!-- navbar -->
+<header id="navbar">
+    <img src="img/shuriken.png" alt="Estrela Ninja">
+    <h2> Joyce Sena </h2>
+    <nav>
+        <!-- lista -->
+        <!-- UL não ordenada "bolinhas" e as ordenadas são "1,2,3"-->
+        <ul id="navbar-list">
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- fim navbar -->
+
+<main>
+    <!-- banner início -->
+    <!-- MAIN conteúdo principal do nosso site -->
+    <div id="main-banner">
+        <div id="banner-info">
+            <h1>Olá, eu sou Joyce Sena</h1>
+            <img src="img/ninja.png" alt="logo">
+            <p>FRONT - END</p>
+        </div>
+    </div>
+    <!-- banner fim -->
+
+    <!-- about inicio-->
+    <section id="about-section">
+        <h2>Sobre o meu jeito ninja de ser</h2>
+        <p>Me considero uma eterna aprendiz que está se atualizando e aprendendo constantemente
+            sou carioca e tenho graduação em Análise e Desenvolvimento de Sistemas, além de possuir
+            experiência na área de desenvolvimento.
+        </p>
+    </section>
+    <!-- about fim-->
+</main>
+
+<!-- skills inicio -->
+<section id="skills-section">
+    <div class="container">
+
+        <div class="skills-container">
+            <img src="img/weapon1.png" alt="Weapons">
+            <h3>Desenvolvimento</h3>
+            <p>Minha maior paixão é desenvolver projetos web</p>
+            <p class="subtitle">Linguagens que utilizo:</p>
+            <p>HTML, CSS, JS, ANGULAR, TYPESCRIPT</p>
+            <p class="subtitle">Projetos que posso desenvolver:</p>
+            <p>E-commerces, Sites institucionais, Sistemas de qualquer complexidade</p>
+        </div>
+
+        <div class="skills-container central">
+            <img src="img/weapon2.png" alt="Weapons">
+            <h3>Criação</h3>
+            <p>Desenvolvimento de logo, Protótipo de Software e Desenvolvimento de Apps</p>
+            <p class="subtitle">Meus conhecimentos:</p>
+            <p>Photoshop, Figma e Angular</p>
+        </div>
+
+        <div class="skills-container">
+            <img src="img/weapon3.png" alt="Weapons">
+            <h3>Infraestrutura</h3>
+            <p>Posso mensurar seus servidores, deixando o projeto mais performático </p>
+            <p class="subtitle">Serviço de Cloud:</p>
+            <p>AWS, Google Cloud, Microsoft Azure</p>
+            <p class="subtitle">O que posso fazer:</p>
+            <p>Clusters, servidores de CDN, diminuir o tempo de requisição</p>
+        </div>
+
+    </div>
+</section>
+<!-- skills fim -->
+
+<!-- jobs inicio -->
+<section id="jobs-section">
+    <h2>Veja meus últimos trabalhos:</h2>
+    <p>Aqui estão os meus trabalhos mais recentes, para ver todos <a href="#">Clique aqui</a></p>
+
+    <div class="job-container">
+        <div class="job-box proj1"></div>
+        <div class="job-box proj2"></div>
+        <div class="job-box proj3"></div>
+    </div>
+
+    <div class="job-container">
+        <div class="job-box proj2"></div>
+        <div class="job-box proj3"></div>
+        <div class="job-box proj1"></div>
+    </div>
+</section>
+<!-- jobs fim -->
+
+<!-- footer inicio -->
+<footer>
+    <h2>Me mande uma mensagem</h2>
+    <p>Caso queira falar sobre algum projeto ou me contratar para algum serviço.</p>
+    <img src="img/ninja.png" alt="perfil ninja">
+    <form action="" method="">
+        <input type="text" name="name" placeholder="Seu Nome">
+        <input type="email" name="email" placeholder="Seu e-mail">
+        <textarea name="msg" placeholder="Digite uma mensagem"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+    <p>Desenvolvido por <span class="detail">Joyce Sena</span></p>
+</footer>
+<!-- footer fim -->
+
+</html>
+<!-- criar uma estrutura básica do HTML ! e apertar TAB -->
